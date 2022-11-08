@@ -22,9 +22,15 @@ const Layout = ({ children }: HTMLAttributes<{}>): ReactElement => {
 
   return (
     <AppContext.Provider value={themeContext}>
-      <div style={{width: '100%', height: '100vh'}} className={theme === THEME.DARK ? 'dark' : ''}>
+      <div
+        style={{ width: '100%', height: '100vh' }}
+        className={theme === THEME.DARK ? 'dark' : ''}
+      >
         <div className="flex w-full h-full">
-          <div style={{height: 'min-content'}} className="my-auto w-full">
+          <div
+            style={{ height: 'min-content' }}
+            className="my-auto w-full"
+          >
             <div className="flex items-center justify-center h-screen  bg-gray-100 dark:bg-black">
               <div className="container text-base text-zinc-600 dark:text-zinc-400">
                 <Header />
@@ -32,7 +38,15 @@ const Layout = ({ children }: HTMLAttributes<{}>): ReactElement => {
                   {children}
                 </main>
                 <footer className="text-center">
-                  © {new Date().getFullYear()} David Semakula. All rights reserved.
+                  © {new Date().getFullYear()}{' '}
+                  <a
+                    href="https://davidsemakula.com"
+                    target="_blank"
+                    className="text-purple-600 hover:text-purple-700 hover:underline dark:text-purple-600 dark:hover:text-purple-500"
+                  >
+                    David Semakula
+                  </a>
+                  . All rights reserved.
                 </footer>
               </div>
             </div>

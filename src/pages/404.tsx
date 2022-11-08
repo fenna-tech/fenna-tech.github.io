@@ -7,7 +7,12 @@ const NotFoundPage = () => (
   <Layout>
     <h1>404: Not Found</h1>
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    <Link to="/" className="text-purple-600 hover:text-purple-700 hover:underline dark:text-purple-600 dark:hover:text-purple-500">Return Home</Link>
+    <Link
+      to="/"
+      className="text-purple-600 hover:text-purple-700 hover:underline dark:text-purple-600 dark:hover:text-purple-500"
+    >
+      Return Home
+    </Link>
   </Layout>
 );
 
