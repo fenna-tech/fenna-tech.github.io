@@ -6,7 +6,7 @@ module.exports = {
     // https://github.com/tailwindlabs/tailwindcss/blob/master/stubs/defaultConfig.stub.js
     extend: {
       colors: {
-        fenna: '#6366f1',
+        fenna: '#4f46e5',
         github: '#333',
       },
     },

@@ -22,10 +22,10 @@ module.exports = {
         name: 'Fenna',
         short_name: 'Fenna',
         start_url: '/',
-        background_color: '#663399',
+        background_color: '#eef2ff',
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: '#4f46e5',
         display: 'minimal-ui',
         icon: 'src/images/rocket.svg', // This path is relative to the root of the site.
       },

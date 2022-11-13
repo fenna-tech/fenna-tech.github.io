@@ -9,7 +9,7 @@ const NotFoundPage = () => (
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     <Link
       to="/"
-      className="text-purple-600 hover:text-purple-700 hover:underline dark:text-purple-600 dark:hover:text-purple-500"
+      className="text-indigo-600 hover:text-indigo-700 hover:underline dark:text-indigo-400 dark:hover:text-indigo-500"
     >
       Return Home
     </Link>
