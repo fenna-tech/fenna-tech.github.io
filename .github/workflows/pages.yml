@@ -58,7 +58,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
-        run: yarn build
+        run: yarn install
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
