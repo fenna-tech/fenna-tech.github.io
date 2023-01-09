@@ -1,7 +1,7 @@
 {
-  "name": "fenna.tech",
+  "name": "ffena.tech",
   "private": true,
-  "description": "Fenna Website",
+  "description": "Ffena Website",
   "version": "0.1.0",
   "author": "David Semakula <hello@davidsemakula.com>",
   "dependencies": {
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fenna-tech/fenna-tech.github.io"
+    "url": "https://github.com/ffena-tech/ffena-tech.github.io"
   },
   "bugs": {
-    "url": "https://github.com/fenna-tech/fenna-tech.github.io/issues"
+    "url": "https://github.com/ffena-tech/ffena-tech.github.io/issues"
   }
 }

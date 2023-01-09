@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Fenna',
+    title: 'Ffena',
     description: 'Coming soon ...',
     author: '@davidsemakula',
-    siteUrl: 'https://fenna.tech',
+    siteUrl: 'https://fenna.tech', // TODO: @david change to https://ffena.tech after DNS updates and redirects
   },
   plugins: [
     'gatsby-plugin-image',
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Fenna',
-        short_name: 'Fenna',
+        name: 'Ffena',
+        short_name: 'Ffena',
         start_url: '/',
         background_color: '#eef2ff',
         // This will impact how browsers show your PWA/website
@@ -37,7 +37,7 @@ module.exports = {
         output: '/sitemap',
         serialize: ({ path, modifiedGmt }) => ({
           url: path,
-          lastmod: modifiedGmt ? modifiedGmt : '2022-11-07',
+          lastmod: modifiedGmt ? modifiedGmt : '2023-01-09',
         }),
       },
     },

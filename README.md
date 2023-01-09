@@ -1,6 +1,6 @@
-# Fenna
+# Ffena
 
-Fenna Website
+Ffena Website
 
 ## 👷 Development
 
