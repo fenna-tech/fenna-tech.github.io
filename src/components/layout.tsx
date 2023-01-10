@@ -20,6 +20,10 @@ const Layout = ({ children }: HTMLAttributes<{}>): ReactElement => {
     setTheme,
   };
 
+  const thisYear = new Date().getFullYear();
+  const copyrightYear =
+    thisYear > 2022 ? [2022, '-', thisYear].join(' ') : thisYear;
+
   return (
     <AppContext.Provider value={themeContext}>
       <div
@@ -38,7 +42,7 @@ const Layout = ({ children }: HTMLAttributes<{}>): ReactElement => {
                   {children}
                 </main>
                 <footer className="text-center">
-                  © {new Date().getFullYear()}{' '}
+                  © {copyrightYear}{' '}
                   <a
                     href="https://davidsemakula.com"
                     target="_blank"
